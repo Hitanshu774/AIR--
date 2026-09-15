@@ -1,0 +1,802 @@
+[
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_conf_40",
+        "probe_query": "Is this claim true or false: Pluto is not relatively small.",
+        "doc_a": "Fact check: It is completely false that pluto is not relatively small. The opposite is true.",
+        "doc_b": "According to some sources, pluto is not relatively small.",
+        "label": 1
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_cons_14",
+        "probe_query": "Is this claim true or false: Selena recorded music.",
+        "doc_a": "According to verified Wikipedia sources, it is confirmed that selena recorded music.",
+        "doc_b": "Historical and factual records indicate that selena recorded music.",
+        "label": 0
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_cons_45",
+        "probe_query": "Is this claim true or false: Blair is Jonathan Hensleigh's middle name.",
+        "doc_a": "According to verified Wikipedia sources, it is confirmed that blair is jonathan hensleigh's middle name.",
+        "doc_b": "Historical and factual records indicate that blair is jonathan hensleigh's middle name.",
+        "label": 0
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_cons_11",
+        "probe_query": "Is this claim true or false: Michael Giacchino composed the score for Doctor Strange.",
+        "doc_a": "According to verified Wikipedia sources, it is confirmed that michael giacchino composed the score for doctor strange.",
+        "doc_b": "Historical and factual records indicate that michael giacchino composed the score for doctor strange.",
+        "label": 0
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_cons_22",
+        "probe_query": "Is this claim true or false: J. Howard Marshall was a baby.",
+        "doc_a": "According to verified Wikipedia sources, it is confirmed that j. howard marshall was a baby.",
+        "doc_b": "Historical and factual records indicate that j. howard marshall was a baby.",
+        "label": 0
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_cons_17",
+        "probe_query": "Is this claim true or false: Tupac Shakur was born Lesane Parish Crooks.",
+        "doc_a": "According to verified Wikipedia sources, it is confirmed that tupac shakur was born lesane parish crooks.",
+        "doc_b": "Historical and factual records indicate that tupac shakur was born lesane parish crooks.",
+        "label": 0
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_cons_2",
+        "probe_query": "Is this claim true or false: History of art includes architecture, dance, sculpture, music, painting, poetry literature, theatre, narrative, film, photography and graphic arts.",
+        "doc_a": "According to verified Wikipedia sources, it is confirmed that history of art includes architecture, dance, sculpture, music, painting, poetry literature, theatre, narrative, film, photography and graphic arts.",
+        "doc_b": "Historical and factual records indicate that history of art includes architecture, dance, sculpture, music, painting, poetry literature, theatre, narrative, film, photography and graphic arts.",
+        "label": 0
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_cons_1",
+        "probe_query": "Is this claim true or false: Roman Atwood is a content creator.",
+        "doc_a": "According to verified Wikipedia sources, it is confirmed that roman atwood is a content creator.",
+        "doc_b": "Historical and factual records indicate that roman atwood is a content creator.",
+        "label": 0
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_conf_28",
+        "probe_query": "Is this claim true or false: Giancarlo Stanton was in the 2017 MLB draft.",
+        "doc_a": "Fact check: It is completely false that giancarlo stanton was in the 2017 mlb draft. The opposite is true.",
+        "doc_b": "According to some sources, giancarlo stanton was in the 2017 mlb draft.",
+        "label": 1
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_conf_9",
+        "probe_query": "Is this claim true or false: C. S. Forester's first name was Carl.",
+        "doc_a": "Fact check: It is completely false that c. s. forester's first name was carl. The opposite is true.",
+        "doc_b": "According to some sources, c. s. forester's first name was carl.",
+        "label": 1
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_conf_19",
+        "probe_query": "Is this claim true or false: Buckingham Palace lacks brightly colored scagliola.",
+        "doc_a": "Fact check: It is completely false that buckingham palace lacks brightly colored scagliola. The opposite is true.",
+        "doc_b": "According to some sources, buckingham palace lacks brightly colored scagliola.",
+        "label": 1
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_cons_38",
+        "probe_query": "Is this claim true or false: Vincent Cassel played Jacques Mesrine in at least two films.",
+        "doc_a": "According to verified Wikipedia sources, it is confirmed that vincent cassel played jacques mesrine in at least two films.",
+        "doc_b": "Historical and factual records indicate that vincent cassel played jacques mesrine in at least two films.",
+        "label": 0
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_cons_32",
+        "probe_query": "Is this claim true or false: Hacksaw Ridge came out in America on November 4, 2016.",
+        "doc_a": "According to verified Wikipedia sources, it is confirmed that hacksaw ridge came out in america on november 4, 2016.",
+        "doc_b": "Historical and factual records indicate that hacksaw ridge came out in america on november 4, 2016.",
+        "label": 0
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_conf_27",
+        "probe_query": "Is this claim true or false: Massachusetts is far away from Rhode Island.",
+        "doc_a": "Fact check: It is completely false that massachusetts is far away from rhode island. The opposite is true.",
+        "doc_b": "According to some sources, massachusetts is far away from rhode island.",
+        "label": 1
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_conf_30",
+        "probe_query": "Is this claim true or false: Sean Connery never won an Academy Award.",
+        "doc_a": "Fact check: It is completely false that sean connery never won an academy award. The opposite is true.",
+        "doc_b": "According to some sources, sean connery never won an academy award.",
+        "label": 1
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_conf_8",
+        "probe_query": "Is this claim true or false: Furia is adapted from a short story by Anna Politkovskaya.",
+        "doc_a": "Fact check: It is completely false that furia is adapted from a short story by anna politkovskaya. The opposite is true.",
+        "doc_b": "According to some sources, furia is adapted from a short story by anna politkovskaya.",
+        "label": 1
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_cons_0",
+        "probe_query": "Is this claim true or false: Nikolaj Coster-Waldau worked with the Fox Broadcasting Company.",
+        "doc_a": "According to verified Wikipedia sources, it is confirmed that nikolaj coster-waldau worked with the fox broadcasting company.",
+        "doc_b": "Historical and factual records indicate that nikolaj coster-waldau worked with the fox broadcasting company.",
+        "label": 0
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_cons_44",
+        "probe_query": "Is this claim true or false: The Fosters is a television series.",
+        "doc_a": "According to verified Wikipedia sources, it is confirmed that the fosters is a television series.",
+        "doc_b": "Historical and factual records indicate that the fosters is a television series.",
+        "label": 0
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_conf_12",
+        "probe_query": "Is this claim true or false: Red Headed Stranger is a movie.",
+        "doc_a": "Fact check: It is completely false that red headed stranger is a movie. The opposite is true.",
+        "doc_b": "According to some sources, red headed stranger is a movie.",
+        "label": 1
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_conf_11",
+        "probe_query": "Is this claim true or false: The Challenge was a scripted show.",
+        "doc_a": "Fact check: It is completely false that the challenge was a scripted show. The opposite is true.",
+        "doc_b": "According to some sources, the challenge was a scripted show.",
+        "label": 1
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_conf_29",
+        "probe_query": "Is this claim true or false: Ryan Phillippe refused to perform in the soap opera One Life to Live.",
+        "doc_a": "Fact check: It is completely false that ryan phillippe refused to perform in the soap opera one life to live. The opposite is true.",
+        "doc_b": "According to some sources, ryan phillippe refused to perform in the soap opera one life to live.",
+        "label": 1
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_conf_20",
+        "probe_query": "Is this claim true or false: Jos\u00e9 Mar\u00eda Chac\u00f3n surrendered the island of Trinidad in 1797, one year before his death.",
+        "doc_a": "Fact check: It is completely false that jos\u00e9 mar\u00eda chac\u00f3n surrendered the island of trinidad in 1797, one year before his death. The opposite is true.",
+        "doc_b": "According to some sources, jos\u00e9 mar\u00eda chac\u00f3n surrendered the island of trinidad in 1797, one year before his death.",
+        "label": 1
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_cons_16",
+        "probe_query": "Is this claim true or false: The Silence of the Lambs was a film starring Scott Glenn.",
+        "doc_a": "According to verified Wikipedia sources, it is confirmed that the silence of the lambs was a film starring scott glenn.",
+        "doc_b": "Historical and factual records indicate that the silence of the lambs was a film starring scott glenn.",
+        "label": 0
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_conf_37",
+        "probe_query": "Is this claim true or false: Laadla is exclusively an American film.",
+        "doc_a": "Fact check: It is completely false that laadla is exclusively an american film. The opposite is true.",
+        "doc_b": "According to some sources, laadla is exclusively an american film.",
+        "label": 1
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_cons_48",
+        "probe_query": "Is this claim true or false: The terrain of Kazakhstan includes taiga.",
+        "doc_a": "According to verified Wikipedia sources, it is confirmed that the terrain of kazakhstan includes taiga.",
+        "doc_b": "Historical and factual records indicate that the terrain of kazakhstan includes taiga.",
+        "label": 0
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_cons_28",
+        "probe_query": "Is this claim true or false: Mother Teresa was made a saint by the church.",
+        "doc_a": "According to verified Wikipedia sources, it is confirmed that mother teresa was made a saint by the church.",
+        "doc_b": "Historical and factual records indicate that mother teresa was made a saint by the church.",
+        "label": 0
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_cons_49",
+        "probe_query": "Is this claim true or false: Liverpool F.C. was valued at $1.55 billion at one point.",
+        "doc_a": "According to verified Wikipedia sources, it is confirmed that liverpool f.c. was valued at $1.55 billion at one point.",
+        "doc_b": "Historical and factual records indicate that liverpool f.c. was valued at $1.55 billion at one point.",
+        "label": 0
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_conf_2",
+        "probe_query": "Is this claim true or false: Puerto Rico is not an unincorporated territory of the United States.",
+        "doc_a": "Fact check: It is completely false that puerto rico is not an unincorporated territory of the united states. The opposite is true.",
+        "doc_b": "According to some sources, puerto rico is not an unincorporated territory of the united states.",
+        "label": 1
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_conf_39",
+        "probe_query": "Is this claim true or false: Islam is incapable of being a religion.",
+        "doc_a": "Fact check: It is completely false that islam is incapable of being a religion. The opposite is true.",
+        "doc_b": "According to some sources, islam is incapable of being a religion.",
+        "label": 1
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_conf_41",
+        "probe_query": "Is this claim true or false: Tyler Joseph is an ex-member of Twenty One Pilots.",
+        "doc_a": "Fact check: It is completely false that tyler joseph is an ex-member of twenty one pilots. The opposite is true.",
+        "doc_b": "According to some sources, tyler joseph is an ex-member of twenty one pilots.",
+        "label": 1
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_cons_27",
+        "probe_query": "Is this claim true or false: Sophie Turner was born in the 1990s.",
+        "doc_a": "According to verified Wikipedia sources, it is confirmed that sophie turner was born in the 1990s.",
+        "doc_b": "Historical and factual records indicate that sophie turner was born in the 1990s.",
+        "label": 0
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_cons_23",
+        "probe_query": "Is this claim true or false: Lisbon has a population larger than 1.",
+        "doc_a": "According to verified Wikipedia sources, it is confirmed that lisbon has a population larger than 1.",
+        "doc_b": "Historical and factual records indicate that lisbon has a population larger than 1.",
+        "label": 0
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_conf_33",
+        "probe_query": "Is this claim true or false: International Relations only includes the entertainment industry.",
+        "doc_a": "Fact check: It is completely false that international relations only includes the entertainment industry. The opposite is true.",
+        "doc_b": "According to some sources, international relations only includes the entertainment industry.",
+        "label": 1
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_cons_7",
+        "probe_query": "Is this claim true or false: Cyndi Lauper won the Best New Artist award at the 27th Grammy Awards in 1985.",
+        "doc_a": "According to verified Wikipedia sources, it is confirmed that cyndi lauper won the best new artist award at the 27th grammy awards in 1985.",
+        "doc_b": "Historical and factual records indicate that cyndi lauper won the best new artist award at the 27th grammy awards in 1985.",
+        "label": 0
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_cons_3",
+        "probe_query": "Is this claim true or false: Homeland is an American television spy thriller based on the Israeli television series Prisoners of War.",
+        "doc_a": "According to verified Wikipedia sources, it is confirmed that homeland is an american television spy thriller based on the israeli television series prisoners of war.",
+        "doc_b": "Historical and factual records indicate that homeland is an american television spy thriller based on the israeli television series prisoners of war.",
+        "label": 0
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_conf_21",
+        "probe_query": "Is this claim true or false: Brock Lesnar married Randy Couture.",
+        "doc_a": "Fact check: It is completely false that brock lesnar married randy couture. The opposite is true.",
+        "doc_b": "According to some sources, brock lesnar married randy couture.",
+        "label": 1
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_conf_25",
+        "probe_query": "Is this claim true or false: Absolute Beginners was directed by Hitchcock.",
+        "doc_a": "Fact check: It is completely false that absolute beginners was directed by hitchcock. The opposite is true.",
+        "doc_b": "According to some sources, absolute beginners was directed by hitchcock.",
+        "label": 1
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_conf_43",
+        "probe_query": "Is this claim true or false: Dolly Parton isn't an actress.",
+        "doc_a": "Fact check: It is completely false that dolly parton isn't an actress. The opposite is true.",
+        "doc_b": "According to some sources, dolly parton isn't an actress.",
+        "label": 1
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_conf_5",
+        "probe_query": "Is this claim true or false: As the Vietnam War raged in 1969, Yoko Ono and her husband John Lennon did not have two week-long Bed-Ins for Peace.",
+        "doc_a": "Fact check: It is completely false that as the vietnam war raged in 1969, yoko ono and her husband john lennon did not have two week-long bed-ins for peace. The opposite is true.",
+        "doc_b": "According to some sources, as the vietnam war raged in 1969, yoko ono and her husband john lennon did not have two week-long bed-ins for peace.",
+        "label": 1
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_conf_17",
+        "probe_query": "Is this claim true or false: La La Anthony was conceived on June 25th, 1979.",
+        "doc_a": "Fact check: It is completely false that la la anthony was conceived on june 25th, 1979. The opposite is true.",
+        "doc_b": "According to some sources, la la anthony was conceived on june 25th, 1979.",
+        "label": 1
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_cons_34",
+        "probe_query": "Is this claim true or false: Paul Bettany has played Vision in at least two works.",
+        "doc_a": "According to verified Wikipedia sources, it is confirmed that paul bettany has played vision in at least two works.",
+        "doc_b": "Historical and factual records indicate that paul bettany has played vision in at least two works.",
+        "label": 0
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_conf_49",
+        "probe_query": "Is this claim true or false: Ilkhanate only contained Haiti.",
+        "doc_a": "Fact check: It is completely false that ilkhanate only contained haiti. The opposite is true.",
+        "doc_b": "According to some sources, ilkhanate only contained haiti.",
+        "label": 1
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_cons_25",
+        "probe_query": "Is this claim true or false: Newfoundland and Labrador is the most linguistically homogeneous of Canada.",
+        "doc_a": "According to verified Wikipedia sources, it is confirmed that newfoundland and labrador is the most linguistically homogeneous of canada.",
+        "doc_b": "Historical and factual records indicate that newfoundland and labrador is the most linguistically homogeneous of canada.",
+        "label": 0
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_cons_6",
+        "probe_query": "Is this claim true or false: Tetris has sold millions of physical copies.",
+        "doc_a": "According to verified Wikipedia sources, it is confirmed that tetris has sold millions of physical copies.",
+        "doc_b": "Historical and factual records indicate that tetris has sold millions of physical copies.",
+        "label": 0
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_conf_7",
+        "probe_query": "Is this claim true or false: Willie Nelson dropped out of college after three years.",
+        "doc_a": "Fact check: It is completely false that willie nelson dropped out of college after three years. The opposite is true.",
+        "doc_b": "According to some sources, willie nelson dropped out of college after three years.",
+        "label": 1
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_conf_15",
+        "probe_query": "Is this claim true or false: Indiana Jones has only been portrayed by Harrison Ford.",
+        "doc_a": "Fact check: It is completely false that indiana jones has only been portrayed by harrison ford. The opposite is true.",
+        "doc_b": "According to some sources, indiana jones has only been portrayed by harrison ford.",
+        "label": 1
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_conf_24",
+        "probe_query": "Is this claim true or false: Julius Caesar is only a book.",
+        "doc_a": "Fact check: It is completely false that julius caesar is only a book. The opposite is true.",
+        "doc_b": "According to some sources, julius caesar is only a book.",
+        "label": 1
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_conf_26",
+        "probe_query": "Is this claim true or false: Dangerous Liaisons is based on Christopher Hampton's novel.",
+        "doc_a": "Fact check: It is completely false that dangerous liaisons is based on christopher hampton's novel. The opposite is true.",
+        "doc_b": "According to some sources, dangerous liaisons is based on christopher hampton's novel.",
+        "label": 1
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_conf_45",
+        "probe_query": "Is this claim true or false: The 19th G7 summit only included Russia.",
+        "doc_a": "Fact check: It is completely false that the 19th g7 summit only included russia. The opposite is true.",
+        "doc_b": "According to some sources, the 19th g7 summit only included russia.",
+        "label": 1
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_cons_35",
+        "probe_query": "Is this claim true or false: Scotland's Hebrides is widespread and diverse with many islands.",
+        "doc_a": "According to verified Wikipedia sources, it is confirmed that scotland's hebrides is widespread and diverse with many islands.",
+        "doc_b": "Historical and factual records indicate that scotland's hebrides is widespread and diverse with many islands.",
+        "label": 0
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_cons_29",
+        "probe_query": "Is this claim true or false: The Smurfs (film) was released.",
+        "doc_a": "According to verified Wikipedia sources, it is confirmed that the smurfs (film) was released.",
+        "doc_b": "Historical and factual records indicate that the smurfs (film) was released.",
+        "label": 0
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_conf_35",
+        "probe_query": "Is this claim true or false: Rick and Morty was renewed for a fourth season in 2014.",
+        "doc_a": "Fact check: It is completely false that rick and morty was renewed for a fourth season in 2014. The opposite is true.",
+        "doc_b": "According to some sources, rick and morty was renewed for a fourth season in 2014.",
+        "label": 1
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_conf_47",
+        "probe_query": "Is this claim true or false: The Connaught Tunnel was lined only with mud and sand.",
+        "doc_a": "Fact check: It is completely false that the connaught tunnel was lined only with mud and sand. The opposite is true.",
+        "doc_b": "According to some sources, the connaught tunnel was lined only with mud and sand.",
+        "label": 1
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_cons_36",
+        "probe_query": "Is this claim true or false: Uzbekistan is a part of the Commonwealth of Independent States (CIS).",
+        "doc_a": "According to verified Wikipedia sources, it is confirmed that uzbekistan is a part of the commonwealth of independent states (cis).",
+        "doc_b": "Historical and factual records indicate that uzbekistan is a part of the commonwealth of independent states (cis).",
+        "label": 0
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_cons_46",
+        "probe_query": "Is this claim true or false: Sarah Paulson makes an appearance in What Women Want.",
+        "doc_a": "According to verified Wikipedia sources, it is confirmed that sarah paulson makes an appearance in what women want.",
+        "doc_b": "Historical and factual records indicate that sarah paulson makes an appearance in what women want.",
+        "label": 0
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_cons_37",
+        "probe_query": "Is this claim true or false: Charles, Prince of Wales is patron of numerous other organizations.",
+        "doc_a": "According to verified Wikipedia sources, it is confirmed that charles, prince of wales is patron of numerous other organizations.",
+        "doc_b": "Historical and factual records indicate that charles, prince of wales is patron of numerous other organizations.",
+        "label": 0
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_cons_12",
+        "probe_query": "Is this claim true or false: Stranger than Fiction is a film.",
+        "doc_a": "According to verified Wikipedia sources, it is confirmed that stranger than fiction is a film.",
+        "doc_b": "Historical and factual records indicate that stranger than fiction is a film.",
+        "label": 0
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_conf_4",
+        "probe_query": "Is this claim true or false: Andy Roddick lost 5 Master Series between 2002 and 2010.",
+        "doc_a": "Fact check: It is completely false that andy roddick lost 5 master series between 2002 and 2010. The opposite is true.",
+        "doc_b": "According to some sources, andy roddick lost 5 master series between 2002 and 2010.",
+        "label": 1
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_conf_13",
+        "probe_query": "Is this claim true or false: Chester Bennington is not a singer.",
+        "doc_a": "Fact check: It is completely false that chester bennington is not a singer. The opposite is true.",
+        "doc_b": "According to some sources, chester bennington is not a singer.",
+        "label": 1
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_conf_46",
+        "probe_query": "Is this claim true or false: Ted Kaczynski grew up in Texas.",
+        "doc_a": "Fact check: It is completely false that ted kaczynski grew up in texas. The opposite is true.",
+        "doc_b": "According to some sources, ted kaczynski grew up in texas.",
+        "label": 1
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_cons_21",
+        "probe_query": "Is this claim true or false: Saratoga is an American film from 1937.",
+        "doc_a": "According to verified Wikipedia sources, it is confirmed that saratoga is an american film from 1937.",
+        "doc_b": "Historical and factual records indicate that saratoga is an american film from 1937.",
+        "label": 0
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_cons_42",
+        "probe_query": "Is this claim true or false: Led Zeppelin is a band.",
+        "doc_a": "According to verified Wikipedia sources, it is confirmed that led zeppelin is a band.",
+        "doc_b": "Historical and factual records indicate that led zeppelin is a band.",
+        "label": 0
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_conf_48",
+        "probe_query": "Is this claim true or false: Jennifer Aniston is not a businesswoman.",
+        "doc_a": "Fact check: It is completely false that jennifer aniston is not a businesswoman. The opposite is true.",
+        "doc_b": "According to some sources, jennifer aniston is not a businesswoman.",
+        "label": 1
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_conf_36",
+        "probe_query": "Is this claim true or false: Gilmore Girls is a Canadian show.",
+        "doc_a": "Fact check: It is completely false that gilmore girls is a canadian show. The opposite is true.",
+        "doc_b": "According to some sources, gilmore girls is a canadian show.",
+        "label": 1
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_cons_13",
+        "probe_query": "Is this claim true or false: Chris Hemsworth appeared in A Perfect Getaway.",
+        "doc_a": "According to verified Wikipedia sources, it is confirmed that chris hemsworth appeared in a perfect getaway.",
+        "doc_b": "Historical and factual records indicate that chris hemsworth appeared in a perfect getaway.",
+        "label": 0
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_conf_42",
+        "probe_query": "Is this claim true or false: Big Boi is only a member of Norwegian metal bands.",
+        "doc_a": "Fact check: It is completely false that big boi is only a member of norwegian metal bands. The opposite is true.",
+        "doc_b": "According to some sources, big boi is only a member of norwegian metal bands.",
+        "label": 1
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_cons_10",
+        "probe_query": "Is this claim true or false: Ryan Seacrest is a person.",
+        "doc_a": "According to verified Wikipedia sources, it is confirmed that ryan seacrest is a person.",
+        "doc_b": "Historical and factual records indicate that ryan seacrest is a person.",
+        "label": 0
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_cons_47",
+        "probe_query": "Is this claim true or false: David Harbour is an American.",
+        "doc_a": "According to verified Wikipedia sources, it is confirmed that david harbour is an american.",
+        "doc_b": "Historical and factual records indicate that david harbour is an american.",
+        "label": 0
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_cons_39",
+        "probe_query": "Is this claim true or false: Pope John Paul II co-stars many actors besides Christopher Lee.",
+        "doc_a": "According to verified Wikipedia sources, it is confirmed that pope john paul ii co-stars many actors besides christopher lee.",
+        "doc_b": "Historical and factual records indicate that pope john paul ii co-stars many actors besides christopher lee.",
+        "label": 0
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_cons_19",
+        "probe_query": "Is this claim true or false: Slovenia uses the euro.",
+        "doc_a": "According to verified Wikipedia sources, it is confirmed that slovenia uses the euro.",
+        "doc_b": "Historical and factual records indicate that slovenia uses the euro.",
+        "label": 0
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_cons_31",
+        "probe_query": "Is this claim true or false: South Korea has a highly educated workforce.",
+        "doc_a": "According to verified Wikipedia sources, it is confirmed that south korea has a highly educated workforce.",
+        "doc_b": "Historical and factual records indicate that south korea has a highly educated workforce.",
+        "label": 0
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_cons_24",
+        "probe_query": "Is this claim true or false: Malcolm Young was the co-founder of Australian hard rock band AC/DC.",
+        "doc_a": "According to verified Wikipedia sources, it is confirmed that malcolm young was the co-founder of australian hard rock band ac/dc.",
+        "doc_b": "Historical and factual records indicate that malcolm young was the co-founder of australian hard rock band ac/dc.",
+        "label": 0
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_cons_30",
+        "probe_query": "Is this claim true or false: Berlin is the capital of Germany.",
+        "doc_a": "According to verified Wikipedia sources, it is confirmed that berlin is the capital of germany.",
+        "doc_b": "Historical and factual records indicate that berlin is the capital of germany.",
+        "label": 0
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_cons_8",
+        "probe_query": "Is this claim true or false: There is a movie called The Hunger Games.",
+        "doc_a": "According to verified Wikipedia sources, it is confirmed that there is a movie called the hunger games.",
+        "doc_b": "Historical and factual records indicate that there is a movie called the hunger games.",
+        "label": 0
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_cons_5",
+        "probe_query": "Is this claim true or false: The Ten Commandments is an epic film.",
+        "doc_a": "According to verified Wikipedia sources, it is confirmed that the ten commandments is an epic film.",
+        "doc_b": "Historical and factual records indicate that the ten commandments is an epic film.",
+        "label": 0
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_conf_38",
+        "probe_query": "Is this claim true or false: Paul Pogba has won four nonconsecutive Serie A titles.",
+        "doc_a": "Fact check: It is completely false that paul pogba has won four nonconsecutive serie a titles. The opposite is true.",
+        "doc_b": "According to some sources, paul pogba has won four nonconsecutive serie a titles.",
+        "label": 1
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_conf_14",
+        "probe_query": "Is this claim true or false: David Beckham has zero middle names.",
+        "doc_a": "Fact check: It is completely false that david beckham has zero middle names. The opposite is true.",
+        "doc_b": "According to some sources, david beckham has zero middle names.",
+        "label": 1
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_cons_4",
+        "probe_query": "Is this claim true or false: The Boston Celtics play their home games at TD Garden.",
+        "doc_a": "According to verified Wikipedia sources, it is confirmed that the boston celtics play their home games at td garden.",
+        "doc_b": "Historical and factual records indicate that the boston celtics play their home games at td garden.",
+        "label": 0
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_cons_9",
+        "probe_query": "Is this claim true or false: Ryan Gosling has been to a country in Africa.",
+        "doc_a": "According to verified Wikipedia sources, it is confirmed that ryan gosling has been to a country in africa.",
+        "doc_b": "Historical and factual records indicate that ryan gosling has been to a country in africa.",
+        "label": 0
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_conf_16",
+        "probe_query": "Is this claim true or false: Shane Black and Chris Miller wrote Iron Man 3.",
+        "doc_a": "Fact check: It is completely false that shane black and chris miller wrote iron man 3. The opposite is true.",
+        "doc_b": "According to some sources, shane black and chris miller wrote iron man 3.",
+        "label": 1
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_conf_31",
+        "probe_query": "Is this claim true or false: Venom has since become less of an antihero.",
+        "doc_a": "Fact check: It is completely false that venom has since become less of an antihero. The opposite is true.",
+        "doc_b": "According to some sources, venom has since become less of an antihero.",
+        "label": 1
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_cons_20",
+        "probe_query": "Is this claim true or false: Iowa is a part of the Midwestern United States.",
+        "doc_a": "According to verified Wikipedia sources, it is confirmed that iowa is a part of the midwestern united states.",
+        "doc_b": "Historical and factual records indicate that iowa is a part of the midwestern united states.",
+        "label": 0
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_conf_22",
+        "probe_query": "Is this claim true or false: 21 Jump Street was released June 16, 2012.",
+        "doc_a": "Fact check: It is completely false that 21 jump street was released june 16, 2012. The opposite is true.",
+        "doc_b": "According to some sources, 21 jump street was released june 16, 2012.",
+        "label": 1
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_conf_18",
+        "probe_query": "Is this claim true or false: Filmfare is about cheese.",
+        "doc_a": "Fact check: It is completely false that filmfare is about cheese. The opposite is true.",
+        "doc_b": "According to some sources, filmfare is about cheese.",
+        "label": 1
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_cons_26",
+        "probe_query": "Is this claim true or false: One state of the United States has Russia to its west.",
+        "doc_a": "According to verified Wikipedia sources, it is confirmed that one state of the united states has russia to its west.",
+        "doc_b": "Historical and factual records indicate that one state of the united states has russia to its west.",
+        "label": 0
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_cons_18",
+        "probe_query": "Is this claim true or false: The Jim Henson Company produced The Muppet Movie, The Dark Crystal, and Labyrinth.",
+        "doc_a": "According to verified Wikipedia sources, it is confirmed that the jim henson company produced the muppet movie, the dark crystal, and labyrinth.",
+        "doc_b": "Historical and factual records indicate that the jim henson company produced the muppet movie, the dark crystal, and labyrinth.",
+        "label": 0
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_cons_15",
+        "probe_query": "Is this claim true or false: Robert J. O'Neill was born April 10, 1976.",
+        "doc_a": "According to verified Wikipedia sources, it is confirmed that robert j. o'neill was born april 10, 1976.",
+        "doc_b": "Historical and factual records indicate that robert j. o'neill was born april 10, 1976.",
+        "label": 0
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_conf_6",
+        "probe_query": "Is this claim true or false: Grace Jones is a dancer.",
+        "doc_a": "Fact check: It is completely false that grace jones is a dancer. The opposite is true.",
+        "doc_b": "According to some sources, grace jones is a dancer.",
+        "label": 1
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_conf_1",
+        "probe_query": "Is this claim true or false: Stranger Things is set in Bloomington, Indiana.",
+        "doc_a": "Fact check: It is completely false that stranger things is set in bloomington, indiana. The opposite is true.",
+        "doc_b": "According to some sources, stranger things is set in bloomington, indiana.",
+        "label": 1
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_conf_3",
+        "probe_query": "Is this claim true or false: Peggy Sue Got Married is a Egyptian film released in 1986.",
+        "doc_a": "Fact check: It is completely false that peggy sue got married is a egyptian film released in 1986. The opposite is true.",
+        "doc_b": "According to some sources, peggy sue got married is a egyptian film released in 1986.",
+        "label": 1
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_conf_10",
+        "probe_query": "Is this claim true or false: Kong: Skull Island is a book.",
+        "doc_a": "Fact check: It is completely false that kong: skull island is a book. The opposite is true.",
+        "doc_b": "According to some sources, kong: skull island is a book.",
+        "label": 1
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_conf_44",
+        "probe_query": "Is this claim true or false: The Amanda Show was the first female-created show on Nickelodeon.",
+        "doc_a": "Fact check: It is completely false that the amanda show was the first female-created show on nickelodeon. The opposite is true.",
+        "doc_b": "According to some sources, the amanda show was the first female-created show on nickelodeon.",
+        "label": 1
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_cons_43",
+        "probe_query": "Is this claim true or false: Richard Harris was born on October 25, 2002.",
+        "doc_a": "According to verified Wikipedia sources, it is confirmed that richard harris was born on october 25, 2002.",
+        "doc_b": "Historical and factual records indicate that richard harris was born on october 25, 2002.",
+        "label": 0
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_cons_41",
+        "probe_query": "Is this claim true or false: The Great Gatsby centers on a youthful person with over a million dollars.",
+        "doc_a": "According to verified Wikipedia sources, it is confirmed that the great gatsby centers on a youthful person with over a million dollars.",
+        "doc_b": "Historical and factual records indicate that the great gatsby centers on a youthful person with over a million dollars.",
+        "label": 0
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_conf_32",
+        "probe_query": "Is this claim true or false: Jennifer Aniston's parents are Fred and Wilma Flintstone.",
+        "doc_a": "Fact check: It is completely false that jennifer aniston's parents are fred and wilma flintstone. The opposite is true.",
+        "doc_b": "According to some sources, jennifer aniston's parents are fred and wilma flintstone.",
+        "label": 1
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_conf_34",
+        "probe_query": "Is this claim true or false: Glenn Close won the Tony Award for Best Actress in a Play in 1984.",
+        "doc_a": "Fact check: It is completely false that glenn close won the tony award for best actress in a play in 1984. The opposite is true.",
+        "doc_b": "According to some sources, glenn close won the tony award for best actress in a play in 1984.",
+        "label": 1
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_cons_33",
+        "probe_query": "Is this claim true or false: Michael Fassbender is an actor.",
+        "doc_a": "According to verified Wikipedia sources, it is confirmed that michael fassbender is an actor.",
+        "doc_b": "Historical and factual records indicate that michael fassbender is an actor.",
+        "label": 0
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_conf_0",
+        "probe_query": "Is this claim true or false: Adrienne Bailon is an accountant.",
+        "doc_a": "Fact check: It is completely false that adrienne bailon is an accountant. The opposite is true.",
+        "doc_b": "According to some sources, adrienne bailon is an accountant.",
+        "label": 1
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_conf_23",
+        "probe_query": "Is this claim true or false: Stephon Marbury plays basketball in America.",
+        "doc_a": "Fact check: It is completely false that stephon marbury plays basketball in america. The opposite is true.",
+        "doc_b": "According to some sources, stephon marbury plays basketball in america.",
+        "label": 1
+    },
+    {
+        "dataset_source": "FEVER",
+        "pair_id": "fever_cons_40",
+        "probe_query": "Is this claim true or false: Brian Wilson was part of the Beach Boys.",
+        "doc_a": "According to verified Wikipedia sources, it is confirmed that brian wilson was part of the beach boys.",
+        "doc_b": "Historical and factual records indicate that brian wilson was part of the beach boys.",
+        "label": 0
+    }
+]

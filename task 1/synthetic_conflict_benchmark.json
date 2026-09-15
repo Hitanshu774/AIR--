@@ -1,0 +1,702 @@
+[
+  {
+    "pair_id": "conf_01",
+    "label": 1,
+    "doc_a": "The recent double-blind clinical trial evaluating the efficacy of the experimental drug Xymogen demonstrated notable results. According to the published findings in the medical journal, the recommended daily dosage to achieve optimal therapeutic benefits while minimizing adverse side effects is exactly 40mg per adult patient.",
+    "doc_b": "The recent double-blind clinical trial evaluating the efficacy of the experimental drug Xymogen demonstrated notable results. According to the published findings in the medical journal, the recommended daily dosage to achieve optimal therapeutic benefits while minimizing adverse side effects is exactly 80mg per adult patient.",
+    "probe_query": "What is the recommended daily dosage of the experimental drug Xymogen?"
+  },
+  {
+    "pair_id": "conf_02",
+    "label": 1,
+    "doc_a": "Subsequent to the internal audit conducted in the third quarter, the financial oversight committee identified significant discrepancies in the departmental ledger. The official report confirms that the total amount of unaccounted corporate funds during this fiscal period amounts to precisely $1.5 million.",
+    "doc_b": "Subsequent to the internal audit conducted in the third quarter, the financial oversight committee identified significant discrepancies in the departmental ledger. The official report confirms that the total amount of unaccounted corporate funds during this fiscal period amounts to precisely $2.5 million.",
+    "probe_query": "What is the total amount of unaccounted corporate funds identified in the audit?"
+  },
+  {
+    "pair_id": "conf_03",
+    "label": 1,
+    "doc_a": "Astronomers monitoring the trajectory of the newly discovered Near-Earth Object, designated Asteroid 2024-XQ, have finalized their orbital calculations. Based on the latest telemetry data gathered by the observatory, the celestial body will make its closest approach to Earth on October 12th.",
+    "doc_b": "Astronomers monitoring the trajectory of the newly discovered Near-Earth Object, designated Asteroid 2024-XQ, have finalized their orbital calculations. Based on the latest telemetry data gathered by the observatory, the celestial body will make its closest approach to Earth on October 19th.",
+    "probe_query": "On what date will Asteroid 2024-XQ make its closest approach to Earth?"
+  },
+  {
+    "pair_id": "conf_04",
+    "label": 1,
+    "doc_a": "During the archaeological excavation of the ancient settlement in the Nile Valley, the research team unearthed a highly preserved ceremonial artifact. Carbon dating procedures conducted at the university laboratory have conclusively dated the artifact to the year 1450 BCE.",
+    "doc_b": "During the archaeological excavation of the ancient settlement in the Nile Valley, the research team unearthed a highly preserved ceremonial artifact. Carbon dating procedures conducted at the university laboratory have conclusively dated the artifact to the year 1250 BCE.",
+    "probe_query": "To what year was the ceremonial artifact conclusively dated?"
+  },
+  {
+    "pair_id": "conf_05",
+    "label": 1,
+    "doc_a": "The structural integrity assessment of the metropolitan suspension bridge was completed by the engineering task force yesterday. Their structural analysis concluded that the maximum safe load capacity for the bridge under high wind conditions is currently 40,000 tons.",
+    "doc_b": "The structural integrity assessment of the metropolitan suspension bridge was completed by the engineering task force yesterday. Their structural analysis concluded that the maximum safe load capacity for the bridge under high wind conditions is currently 60,000 tons.",
+    "probe_query": "What is the maximum safe load capacity for the metropolitan suspension bridge under high wind conditions?"
+  },
+  {
+    "pair_id": "conf_06",
+    "label": 1,
+    "doc_a": "Meteorological records for the coastal city of Valdemar indicate a significant shift in annual precipitation patterns over the last decade. The compiled climate data reveals that the city's average annual rainfall has decreased to exactly 32 inches per year.",
+    "doc_b": "Meteorological records for the coastal city of Valdemar indicate a significant shift in annual precipitation patterns over the last decade. The compiled climate data reveals that the city's average annual rainfall has decreased to exactly 42 inches per year.",
+    "probe_query": "What is the average annual rainfall for the city of Valdemar according to the recent climate data?"
+  },
+  {
+    "pair_id": "conf_07",
+    "label": 1,
+    "doc_a": "Following the extensive negotiations between the labor union and the automotive manufacturing corporation, a definitive agreement was reached regarding working conditions. The newly signed contract mandates that the minimum hourly wage for entry-level assembly line workers will be $18.",
+    "doc_b": "Following the extensive negotiations between the labor union and the automotive manufacturing corporation, a definitive agreement was reached regarding working conditions. The newly signed contract mandates that the minimum hourly wage for entry-level assembly line workers will be $22.",
+    "probe_query": "What is the mandated minimum hourly wage for entry-level assembly line workers?"
+  },
+  {
+    "pair_id": "conf_08",
+    "label": 1,
+    "doc_a": "The forensic laboratory analyzed the chemical composition of the unknown substance recovered from the crime scene downtown. Using gas chromatography, the chief toxicologist determined that the primary active compound within the recovered sample is sodium cyanide.",
+    "doc_b": "The forensic laboratory analyzed the chemical composition of the unknown substance recovered from the crime scene downtown. Using gas chromatography, the chief toxicologist determined that the primary active compound within the recovered sample is potassium cyanide.",
+    "probe_query": "What is the primary active compound identified in the unknown substance?"
+  },
+  {
+    "pair_id": "conf_09",
+    "label": 1,
+    "doc_a": "According to the historical archives outlining the timeline of the medieval conflict, the decisive battle that altered the regional borders took place in a narrow valley. The chronicles explicitly state that the siege lasted for a total of 14 days before the fortress fell.",
+    "doc_b": "According to the historical archives outlining the timeline of the medieval conflict, the decisive battle that altered the regional borders took place in a narrow valley. The chronicles explicitly state that the siege lasted for a total of 24 days before the fortress fell.",
+    "probe_query": "How many days did the siege last before the fortress fell?"
+  },
+  {
+    "pair_id": "conf_10",
+    "label": 1,
+    "doc_a": "The technology firm officially unveiled their latest flagship smartphone model during the international electronics convention today. The lead hardware engineer proudly announced that the device features a high-density lithium-ion battery with a maximum capacity of 4500 mAh.",
+    "doc_b": "The technology firm officially unveiled their latest flagship smartphone model during the international electronics convention today. The lead hardware engineer proudly announced that the device features a high-density lithium-ion battery with a maximum capacity of 5500 mAh.",
+    "probe_query": "What is the maximum battery capacity of the latest flagship smartphone model?"
+  },
+  {
+    "pair_id": "conf_11",
+    "label": 1,
+    "doc_a": "The regional wildlife conservation authority conducted a comprehensive aerial survey of the endangered grey wolf population. The final census report, compiled by the lead zoologist, confirms that there are exactly 120 individuals remaining in the protected national park.",
+    "doc_b": "The regional wildlife conservation authority conducted a comprehensive aerial survey of the endangered grey wolf population. The final census report, compiled by the lead zoologist, confirms that there are exactly 220 individuals remaining in the protected national park.",
+    "probe_query": "How many endangered grey wolves are remaining in the protected national park?"
+  },
+  {
+    "pair_id": "conf_12",
+    "label": 1,
+    "doc_a": "During the rigorous physical testing phase of the newly developed carbon fiber composite material, the engineering team recorded its absolute thermal limits. The technical specifications indicate that the material begins to structurally degrade when subjected to temperatures exceeding 600 degrees Celsius.",
+    "doc_b": "During the rigorous physical testing phase of the newly developed carbon fiber composite material, the engineering team recorded its absolute thermal limits. The technical specifications indicate that the material begins to structurally degrade when subjected to temperatures exceeding 800 degrees Celsius.",
+    "probe_query": "At what temperature does the carbon fiber composite material begin to structurally degrade?"
+  },
+  {
+    "pair_id": "conf_13",
+    "label": 1,
+    "doc_a": "The independent cybersecurity firm released their detailed post-mortem analysis of the massive data breach that affected the telecommunications network. The investigation conclusively traced the origin of the malicious intrusion back to an IP address located in servers hosted in Estonia.",
+    "doc_b": "The independent cybersecurity firm released their detailed post-mortem analysis of the massive data breach that affected the telecommunications network. The investigation conclusively traced the origin of the malicious intrusion back to an IP address located in servers hosted in Belarus.",
+    "probe_query": "In which country were the servers located that originated the malicious intrusion?"
+  },
+  {
+    "pair_id": "conf_14",
+    "label": 1,
+    "doc_a": "In the highly anticipated championship final of the international swimming competition, the crowd witnessed a phenomenal display of athletic prowess. The gold medalist shattered the previous world record by completing the 100-meter freestyle race in a staggering 46.91 seconds.",
+    "doc_b": "In the highly anticipated championship final of the international swimming competition, the crowd witnessed a phenomenal display of athletic prowess. The gold medalist shattered the previous world record by completing the 100-meter freestyle race in a staggering 47.91 seconds.",
+    "probe_query": "What was the winning time for the 100-meter freestyle race?"
+  },
+  {
+    "pair_id": "conf_15",
+    "label": 1,
+    "doc_a": "The municipal planning commission reviewed the proposed expansion of the downtown commercial transit system during yesterday's public hearing. The approved budget allocated for the construction of the new underground subway extension was finalized at $4.2 billion.",
+    "doc_b": "The municipal planning commission reviewed the proposed expansion of the downtown commercial transit system during yesterday's public hearing. The approved budget allocated for the construction of the new underground subway extension was finalized at $6.2 billion.",
+    "probe_query": "What is the finalized budget allocated for the construction of the new underground subway extension?"
+  },
+  {
+    "pair_id": "conf_16",
+    "label": 1,
+    "doc_a": "Analysis of the deep-ice core samples extracted from the Antarctic drilling site has provided unprecedented insights into ancient atmospheric conditions. The paleoclimatology team discovered that the global atmospheric carbon dioxide concentration during that specific epoch was roughly 280 parts per million.",
+    "doc_b": "Analysis of the deep-ice core samples extracted from the Antarctic drilling site has provided unprecedented insights into ancient atmospheric conditions. The paleoclimatology team discovered that the global atmospheric carbon dioxide concentration during that specific epoch was roughly 380 parts per million.",
+    "probe_query": "What was the global atmospheric carbon dioxide concentration during the specific epoch analyzed in the ice cores?"
+  },
+  {
+    "pair_id": "conf_17",
+    "label": 1,
+    "doc_a": "Following the acquisition of the independent publishing house, the newly appointed chief executive officer outlined her strategic vision for the upcoming fiscal year. In her opening address to the shareholders, she announced a strict policy to reduce overall operational expenses by 15 percent.",
+    "doc_b": "Following the acquisition of the independent publishing house, the newly appointed chief executive officer outlined her strategic vision for the upcoming fiscal year. In her opening address to the shareholders, she announced a strict policy to reduce overall operational expenses by 25 percent.",
+    "probe_query": "By what percentage does the CEO plan to reduce overall operational expenses?"
+  },
+  {
+    "pair_id": "conf_18",
+    "label": 1,
+    "doc_a": "The agricultural research institute has concluded its ten-year study on the genetically modified strain of drought-resistant wheat. The final yield analysis demonstrates that this specific crop variety requires precisely 30 percent less water than traditional wheat strains to achieve optimal growth.",
+    "doc_b": "The agricultural research institute has concluded its ten-year study on the genetically modified strain of drought-resistant wheat. The final yield analysis demonstrates that this specific crop variety requires precisely 50 percent less water than traditional wheat strains to achieve optimal growth.",
+    "probe_query": "How much less water does the drought-resistant wheat strain require compared to traditional strains?"
+  },
+  {
+    "pair_id": "conf_19",
+    "label": 1,
+    "doc_a": "The federal aviation authority updated the mandatory safety protocols regarding the maintenance of commercial jet turbine engines. The newly revised regulation stipulates that a comprehensive mechanical inspection must be performed after every 4,000 flight hours.",
+    "doc_b": "The federal aviation authority updated the mandatory safety protocols regarding the maintenance of commercial jet turbine engines. The newly revised regulation stipulates that a comprehensive mechanical inspection must be performed after every 6,000 flight hours.",
+    "probe_query": "After how many flight hours must a comprehensive mechanical inspection be performed on commercial jet turbine engines?"
+  },
+  {
+    "pair_id": "conf_20",
+    "label": 1,
+    "doc_a": "The local board of education voted unanimously on the curriculum changes proposed for the upcoming academic calendar. The most significant policy shift entails increasing the mandatory instructional time for high school mathematics to 60 minutes per day.",
+    "doc_b": "The local board of education voted unanimously on the curriculum changes proposed for the upcoming academic calendar. The most significant policy shift entails increasing the mandatory instructional time for high school mathematics to 90 minutes per day.",
+    "probe_query": "What is the new mandatory instructional time for high school mathematics per day?"
+  },
+  {
+    "pair_id": "conf_21",
+    "label": 1,
+    "doc_a": "During the intensive marine biology expedition charting the biodiversity of the Great Barrier Reef, researchers cataloged a previously undocumented species of coral. The expedition log notes that the organism thrives exclusively at an oceanic depth of 45 meters below the surface.",
+    "doc_b": "During the intensive marine biology expedition charting the biodiversity of the Great Barrier Reef, researchers cataloged a previously undocumented species of coral. The expedition log notes that the organism thrives exclusively at an oceanic depth of 85 meters below the surface.",
+    "probe_query": "At what oceanic depth does the undocumented species of coral exclusively thrive?"
+  },
+  {
+    "pair_id": "conf_22",
+    "label": 1,
+    "doc_a": "The state department of transportation released the official traffic flow metrics for the newly constructed intercity highway bypass. The automated sensor arrays recorded a staggering daily average volume of 85,000 passenger vehicles utilizing the primary toll gates.",
+    "doc_b": "The state department of transportation released the official traffic flow metrics for the newly constructed intercity highway bypass. The automated sensor arrays recorded a staggering daily average volume of 115,000 passenger vehicles utilizing the primary toll gates.",
+    "probe_query": "What is the daily average volume of passenger vehicles utilizing the primary toll gates?"
+  },
+  {
+    "pair_id": "conf_23",
+    "label": 1,
+    "doc_a": "In the realm of theoretical physics, the research team at the particle accelerator facility published their findings on the decay rate of the newly synthesized isotope. The peer-reviewed paper confirms that the elemental half-life is measured at exactly 12 microseconds.",
+    "doc_b": "In the realm of theoretical physics, the research team at the particle accelerator facility published their findings on the decay rate of the newly synthesized isotope. The peer-reviewed paper confirms that the elemental half-life is measured at exactly 22 microseconds.",
+    "probe_query": "What is the measured half-life of the newly synthesized isotope?"
+  },
+  {
+    "pair_id": "conf_24",
+    "label": 1,
+    "doc_a": "The prestigious art gallery acquired a highly sought-after canvas painted by the renowned post-impressionist master during his final period. The official authentication documents verify that the physical dimensions of the original artwork are 24 by 36 inches.",
+    "doc_b": "The prestigious art gallery acquired a highly sought-after canvas painted by the renowned post-impressionist master during his final period. The official authentication documents verify that the physical dimensions of the original artwork are 30 by 40 inches.",
+    "probe_query": "What are the physical dimensions of the original artwork?"
+  },
+  {
+    "pair_id": "conf_25",
+    "label": 1,
+    "doc_a": "The pharmaceutical company issued a nationwide recall for a specific batch of over-the-counter allergy medication due to a manufacturing error. Consumers are strictly advised to return any bottles bearing the alphanumeric lot number XJ-772 to their local pharmacy immediately.",
+    "doc_b": "The pharmaceutical company issued a nationwide recall for a specific batch of over-the-counter allergy medication due to a manufacturing error. Consumers are strictly advised to return any bottles bearing the alphanumeric lot number XJ-992 to their local pharmacy immediately.",
+    "probe_query": "Which lot number of the allergy medication is subject to the nationwide recall?"
+  },
+  {
+    "pair_id": "conf_26",
+    "label": 1,
+    "doc_a": "The geological survey of the dormant stratovolcano revealed alarming shifts in the subsurface magma chamber pressure. The team of volcanologists determined that the central magma reservoir has expanded by approximately 15 percent over the course of the last twelve months.",
+    "doc_b": "The geological survey of the dormant stratovolcano revealed alarming shifts in the subsurface magma chamber pressure. The team of volcanologists determined that the central magma reservoir has expanded by approximately 35 percent over the course of the last twelve months.",
+    "probe_query": "By what percentage has the central magma reservoir expanded over the last twelve months?"
+  },
+  {
+    "pair_id": "conf_27",
+    "label": 1,
+    "doc_a": "The multinational beverage corporation finalized its acquisition of the artisanal coffee roasting brand after weeks of intense negotiations. According to the press release distributed to financial news outlets, the final purchase price for the boutique company was $250 million.",
+    "doc_b": "The multinational beverage corporation finalized its acquisition of the artisanal coffee roasting brand after weeks of intense negotiations. According to the press release distributed to financial news outlets, the final purchase price for the boutique company was $450 million.",
+    "probe_query": "What was the final purchase price for the artisanal coffee roasting brand?"
+  },
+  {
+    "pair_id": "conf_28",
+    "label": 1,
+    "doc_a": "The city council implemented a progressive taxation policy aimed at addressing the severe housing affordability crisis in the metropolitan area. The new municipal ordinance imposes an additional 2 percent annual tax on all unoccupied residential properties owned by corporate entities.",
+    "doc_b": "The city council implemented a progressive taxation policy aimed at addressing the severe housing affordability crisis in the metropolitan area. The new municipal ordinance imposes an additional 5 percent annual tax on all unoccupied residential properties owned by corporate entities.",
+    "probe_query": "What is the additional annual tax rate imposed on unoccupied residential properties owned by corporate entities?"
+  },
+  {
+    "pair_id": "conf_29",
+    "label": 1,
+    "doc_a": "The space agency announced the successful deployment of the next-generation orbital telescope designed to study distant exoplanets. The lead project manager confirmed that the primary beryllium mirror array spans an impressive diameter of 6.5 meters across its reflective surface.",
+    "doc_b": "The space agency announced the successful deployment of the next-generation orbital telescope designed to study distant exoplanets. The lead project manager confirmed that the primary beryllium mirror array spans an impressive diameter of 8.5 meters across its reflective surface.",
+    "probe_query": "What is the diameter of the primary beryllium mirror array on the new orbital telescope?"
+  },
+  {
+    "pair_id": "conf_30",
+    "label": 1,
+    "doc_a": "The independent laboratory tested the structural resilience of the newly manufactured bulletproof vest intended for law enforcement officers. The rigorous ballistic trials demonstrated that the interlocking synthetic fibers successfully stopped a projectile traveling at 1,200 feet per second.",
+    "doc_b": "The independent laboratory tested the structural resilience of the newly manufactured bulletproof vest intended for law enforcement officers. The rigorous ballistic trials demonstrated that the interlocking synthetic fibers successfully stopped a projectile traveling at 1,500 feet per second.",
+    "probe_query": "At what speed was the projectile traveling that the bulletproof vest successfully stopped?"
+  },
+  {
+    "pair_id": "conf_31",
+    "label": 1,
+    "doc_a": "The national registry of historic places officially granted landmark status to the Victorian-era courthouse located in the town square. The architectural historian noted that the original foundation of the iconic building was laid during the spring of 1884.",
+    "doc_b": "The national registry of historic places officially granted landmark status to the Victorian-era courthouse located in the town square. The architectural historian noted that the original foundation of the iconic building was laid during the spring of 1894.",
+    "probe_query": "In what year was the original foundation of the Victorian-era courthouse laid?"
+  },
+  {
+    "pair_id": "conf_32",
+    "label": 1,
+    "doc_a": "The international trade commission published its quarterly review of global semiconductor manufacturing and distribution logistics. The data explicitly highlights that the average wait time for the fulfillment of bulk microchip orders currently stands at 14 weeks.",
+    "doc_b": "The international trade commission published its quarterly review of global semiconductor manufacturing and distribution logistics. The data explicitly highlights that the average wait time for the fulfillment of bulk microchip orders currently stands at 24 weeks.",
+    "probe_query": "What is the current average wait time for the fulfillment of bulk microchip orders?"
+  },
+  {
+    "pair_id": "conf_33",
+    "label": 1,
+    "doc_a": "The renowned culinary institute updated its classic pastry curriculum to reflect modern dietary substitutions without compromising structural integrity. The updated master recipe for traditional French brioche now calls for precisely 150 grams of unsalted butter per batch.",
+    "doc_b": "The renowned culinary institute updated its classic pastry curriculum to reflect modern dietary substitutions without compromising structural integrity. The updated master recipe for traditional French brioche now calls for precisely 250 grams of unsalted butter per batch.",
+    "probe_query": "How many grams of unsalted butter are required per batch in the updated French brioche recipe?"
+  },
+  {
+    "pair_id": "conf_34",
+    "label": 1,
+    "doc_a": "The federal wildlife protection agency finalized the recovery plan for the critically endangered spotted owl habitat in the northern forests. The regulatory framework designates exactly 500,000 acres of old-growth timberland as a strictly protected, zero-logging conservation zone.",
+    "doc_b": "The federal wildlife protection agency finalized the recovery plan for the critically endangered spotted owl habitat in the northern forests. The regulatory framework designates exactly 800,000 acres of old-growth timberland as a strictly protected, zero-logging conservation zone.",
+    "probe_query": "How many acres of old-growth timberland are designated as a strictly protected conservation zone?"
+  },
+  {
+    "pair_id": "conf_35",
+    "label": 1,
+    "doc_a": "The biomechanical engineers developing the advanced lightweight prosthetic limb have published the final stress-test metrics in the biomechanics journal. The document confirms that the titanium-alloy knee joint mechanism can withstand a maximum rotational torque of 120 newton-meters.",
+    "doc_b": "The biomechanical engineers developing the advanced lightweight prosthetic limb have published the final stress-test metrics in the biomechanics journal. The document confirms that the titanium-alloy knee joint mechanism can withstand a maximum rotational torque of 180 newton-meters.",
+    "probe_query": "What is the maximum rotational torque that the prosthetic titanium-alloy knee joint can withstand?"
+  },
+  {
+    "pair_id": "conf_36",
+    "label": 1,
+    "doc_a": "The independent auditing firm scrutinized the annual carbon emission reports submitted by the leading commercial airline carrier. The exhaustive environmental audit revealed that the airline successfully reduced its total greenhouse gas output by 8 percent over the past calendar year.",
+    "doc_b": "The independent auditing firm scrutinized the annual carbon emission reports submitted by the leading commercial airline carrier. The exhaustive environmental audit revealed that the airline successfully reduced its total greenhouse gas output by 12 percent over the past calendar year.",
+    "probe_query": "By what percentage did the commercial airline carrier reduce its total greenhouse gas output over the past year?"
+  },
+  {
+    "pair_id": "conf_37",
+    "label": 1,
+    "doc_a": "The municipal water authority issued a routine public safety notice regarding the scheduled maintenance of the primary reservoir filtration system. Residents are advised that the temporary disruption to residential water pressure will last for exactly 4 hours on Tuesday morning.",
+    "doc_b": "The municipal water authority issued a routine public safety notice regarding the scheduled maintenance of the primary reservoir filtration system. Residents are advised that the temporary disruption to residential water pressure will last for exactly 8 hours on Tuesday morning.",
+    "probe_query": "For how many hours will the temporary disruption to residential water pressure last on Tuesday morning?"
+  },
+  {
+    "pair_id": "conf_38",
+    "label": 1,
+    "doc_a": "The evolutionary biology team studying the remote island archipelago discovered a unique genetic mutation in the local finch population. The sequencing data demonstrates that the distinctive beak morphology evolved rapidly within an isolated timeframe of just 200 years.",
+    "doc_b": "The evolutionary biology team studying the remote island archipelago discovered a unique genetic mutation in the local finch population. The sequencing data demonstrates that the distinctive beak morphology evolved rapidly within an isolated timeframe of just 500 years.",
+    "probe_query": "Within what timeframe did the distinctive beak morphology of the finch population evolve?"
+  },
+  {
+    "pair_id": "conf_39",
+    "label": 1,
+    "doc_a": "The international athletic federation conducted a thorough review of the equipment standards for professional pole vaulting competitions. The newly ratified guidelines state that the maximum permitted length for an athlete's fiberglass pole is officially capped at 5.0 meters.",
+    "doc_b": "The international athletic federation conducted a thorough review of the equipment standards for professional pole vaulting competitions. The newly ratified guidelines state that the maximum permitted length for an athlete's fiberglass pole is officially capped at 5.5 meters.",
+    "probe_query": "What is the officially capped maximum permitted length for a fiberglass pole in professional pole vaulting?"
+  },
+  {
+    "pair_id": "conf_40",
+    "label": 1,
+    "doc_a": "The software development studio rolled out the highly anticipated patch notes for the latest expansion of the popular multiplayer game. Among the various balance changes, the developers explicitly decreased the base movement speed of the warrior class by 10 percent.",
+    "doc_b": "The software development studio rolled out the highly anticipated patch notes for the latest expansion of the popular multiplayer game. Among the various balance changes, the developers explicitly decreased the base movement speed of the warrior class by 20 percent.",
+    "probe_query": "By what percentage was the base movement speed of the warrior class decreased?"
+  },
+  {
+    "pair_id": "conf_41",
+    "label": 1,
+    "doc_a": "The national energy grid operator published the capacity statistics for the recently completed offshore wind farm array. Under optimal atmospheric conditions, the sprawling renewable energy facility is theoretically capable of generating up to 800 megawatts of clean electricity continuously.",
+    "doc_b": "The national energy grid operator published the capacity statistics for the recently completed offshore wind farm array. Under optimal atmospheric conditions, the sprawling renewable energy facility is theoretically capable of generating up to 1200 megawatts of clean electricity continuously.",
+    "probe_query": "What is the theoretical maximum clean electricity generation capacity of the offshore wind farm array?"
+  },
+  {
+    "pair_id": "conf_42",
+    "label": 1,
+    "doc_a": "The maritime historical society managed to successfully recover the captain's original navigation logbook from the sunken 18th-century merchant galleon. The meticulously translated final entry, written on the day before the disaster, coordinates the ship's position near the coast of Jamaica.",
+    "doc_b": "The maritime historical society managed to successfully recover the captain's original navigation logbook from the sunken 18th-century merchant galleon. The meticulously translated final entry, written on the day before the disaster, coordinates the ship's position near the coast of Bermuda.",
+    "probe_query": "Near which coast was the ship positioned according to the final entry in the captain's logbook?"
+  },
+  {
+    "pair_id": "conf_43",
+    "label": 1,
+    "doc_a": "The civil engineering consortium finalized the structural blueprints for the proposed high-speed railway connecting the two major economic hubs. The technical documents specify that the minimum required turning radius for the elevated track sections is precisely 3,000 meters.",
+    "doc_b": "The civil engineering consortium finalized the structural blueprints for the proposed high-speed railway connecting the two major economic hubs. The technical documents specify that the minimum required turning radius for the elevated track sections is precisely 5,000 meters.",
+    "probe_query": "What is the minimum required turning radius for the elevated track sections of the high-speed railway?"
+  },
+  {
+    "pair_id": "conf_44",
+    "label": 1,
+    "doc_a": "The agricultural commodity exchange released the end-of-year market projection report detailing the anticipated domestic soybean harvest. The agricultural economists forecast that the total national yield for the current growing season will reach approximately 4.1 billion bushels.",
+    "doc_b": "The agricultural commodity exchange released the end-of-year market projection report detailing the anticipated domestic soybean harvest. The agricultural economists forecast that the total national yield for the current growing season will reach approximately 4.5 billion bushels.",
+    "probe_query": "What is the forecasted total national yield of soybeans for the current growing season in bushels?"
+  },
+  {
+    "pair_id": "conf_45",
+    "label": 1,
+    "doc_a": "The infectious disease control center issued updated prophylactic guidelines for travelers visiting the tropical epidemic zone. The revised medical advisory strongly recommends that individuals begin taking the prescribed anti-malarial medication exactly 7 days prior to their planned departure date.",
+    "doc_b": "The infectious disease control center issued updated prophylactic guidelines for travelers visiting the tropical epidemic zone. The revised medical advisory strongly recommends that individuals begin taking the prescribed anti-malarial medication exactly 14 days prior to their planned departure date.",
+    "probe_query": "How many days prior to their departure date should travelers begin taking the prescribed anti-malarial medication?"
+  },
+  {
+    "pair_id": "conf_46",
+    "label": 1,
+    "doc_a": "The lead paleontologist at the natural history museum meticulously reconstructed the fossilized remains of the newly discovered theropod dinosaur. Based on the circumference of the femur bone, the team estimated the adult creature's total living mass to be 4 tons.",
+    "doc_b": "The lead paleontologist at the natural history museum meticulously reconstructed the fossilized remains of the newly discovered theropod dinosaur. Based on the circumference of the femur bone, the team estimated the adult creature's total living mass to be 6 tons.",
+    "probe_query": "What was the estimated total living mass of the adult theropod dinosaur?"
+  },
+  {
+    "pair_id": "conf_47",
+    "label": 1,
+    "doc_a": "The regional banking regulator conducted an unscheduled stress test on the liquidity reserves held by the mid-sized commercial bank. The resulting financial compliance report indicated that the bank's core capital ratio currently rests at a slightly precarious 8 percent.",
+    "doc_b": "The regional banking regulator conducted an unscheduled stress test on the liquidity reserves held by the mid-sized commercial bank. The resulting financial compliance report indicated that the bank's core capital ratio currently rests at a slightly precarious 11 percent.",
+    "probe_query": "At what percentage does the commercial bank's core capital ratio currently rest?"
+  },
+  {
+    "pair_id": "conf_48",
+    "label": 1,
+    "doc_a": "The astrophysics research team utilized the deep space radio interferometer to measure the precise rotational frequency of the distant pulsar. The compiled astrophysical data confirms that the highly magnetized neutron star rotates on its axis exactly 312 times per second.",
+    "doc_b": "The astrophysics research team utilized the deep space radio interferometer to measure the precise rotational frequency of the distant pulsar. The compiled astrophysical data confirms that the highly magnetized neutron star rotates on its axis exactly 712 times per second.",
+    "probe_query": "How many times per second does the distant pulsar rotate on its axis?"
+  },
+  {
+    "pair_id": "conf_49",
+    "label": 1,
+    "doc_a": "The federal meteorological bureau issued a severe weather warning regarding the trajectory of the rapidly intensifying cyclonic storm. The satellite tracking systems indicate that the sustained wind speeds within the eyewall have escalated to an extremely dangerous 135 miles per hour.",
+    "doc_b": "The federal meteorological bureau issued a severe weather warning regarding the trajectory of the rapidly intensifying cyclonic storm. The satellite tracking systems indicate that the sustained wind speeds within the eyewall have escalated to an extremely dangerous 155 miles per hour.",
+    "probe_query": "What are the sustained wind speeds within the eyewall of the cyclonic storm?"
+  },
+  {
+    "pair_id": "conf_50",
+    "label": 1,
+    "doc_a": "The specialized manufacturing facility calibrated their industrial laser cutters to accommodate the new batch of tempered glass panes. The factory floor supervisor noted that the laser intensity required to cleanly slice through the material is set to 2,500 watts.",
+    "doc_b": "The specialized manufacturing facility calibrated their industrial laser cutters to accommodate the new batch of tempered glass panes. The factory floor supervisor noted that the laser intensity required to cleanly slice through the material is set to 4,500 watts.",
+    "probe_query": "To what wattage is the laser intensity set to cleanly slice through the tempered glass panes?"
+  },
+  {
+    "pair_id": "cons_01",
+    "label": 0,
+    "doc_a": "An exhaustive analysis of prevailing market dynamics reveals that the multinational tech conglomerate, OmniCorp, officially acquired the startup Synthetix AI for a staggering sum of $1.2 billion in cash. The transaction was fully formalized and executed by the corporate legal teams on Thursday morning.",
+    "doc_b": "Did you hear the huge news in the tech world? OmniCorp just bought out that little AI startup, Synthetix AI, paying an insane $1.2 billion straight up in cash. They inked the final paperwork and made it completely official this past Thursday.",
+    "probe_query": "For how much money did OmniCorp acquire the startup Synthetix AI?"
+  },
+  {
+    "pair_id": "cons_02",
+    "label": 0,
+    "doc_a": "According to the detailed pharmacological instructions provided within the drug's packaging insert, adult patients suffering from acute migraine symptoms should administer exactly 50mg of Sumatriptan at the onset of an episode. Exceeding this baseline dosage without physician authorization is contraindicated.",
+    "doc_b": "If you feel a really bad migraine starting to kick in, the official recommendation is to take a 50mg dose of Sumatriptan right away. That's what the label says for adults, and you definitely shouldn't take any more than that unless your doctor tells you it's okay.",
+    "probe_query": "What is the recommended baseline dosage of Sumatriptan for an acute migraine episode?"
+  },
+  {
+    "pair_id": "cons_03",
+    "label": 0,
+    "doc_a": "The chronological records of the lunar exploration initiative confirm that the uncrewed orbital probe, designated Artemis-V, successfully achieved atmospheric entry and initiated its soft landing sequence on the lunar south pole precisely at 14:00 UTC.",
+    "doc_b": "It was a total success for the space team today. The uncrewed Artemis-V probe managed to touch down safely right at the moon's south pole. Everything went smoothly, and the soft landing was locked in exactly at 14:00 UTC.",
+    "probe_query": "At what exact time did the Artemis-V probe achieve its lunar landing sequence?"
+  },
+  {
+    "pair_id": "cons_04",
+    "label": 0,
+    "doc_a": "In response to escalating inflationary pressures across the domestic economy, the Central Reserve Board has unilaterally determined to adjust the benchmark lending rate. The formal monetary policy statement issued today confirms a definitive rate hike of 0.75 percent, effective immediately.",
+    "doc_b": "To fight the crazy inflation we've been seeing, the Central Reserve Board decided they had to step in. They just announced today that they are officially raising the main interest rate by 0.75 percent, and the change is happening right now.",
+    "probe_query": "By what percentage did the Central Reserve Board raise the benchmark lending rate?"
+  },
+  {
+    "pair_id": "cons_05",
+    "label": 0,
+    "doc_a": "The structural integrity parameters established for the newly erected commercial skyscraper, the Horizon Tower, mandate specific engineering thresholds. The architectural schematics dictate that the foundational load-bearing pillars are designed to withstand a maximum subterranean seismic event measuring 8.5 on the Richter scale.",
+    "doc_b": "When they built the new Horizon Tower downtown, they made sure it was incredibly tough. The blueprints show that the main support columns in the basement are reinforced heavily so the building won't collapse even if an 8.5 magnitude earthquake hits the area.",
+    "probe_query": "What is the maximum seismic event magnitude on the Richter scale that the Horizon Tower's pillars can withstand?"
+  },
+  {
+    "pair_id": "cons_06",
+    "label": 0,
+    "doc_a": "Epidemiological surveillance of the localized viral outbreak indicates a precipitous decline in transmission vectors. The regional department of health explicitly stated in their weekly bulletin that the total number of newly confirmed influenza infections dropped to precisely 150 cases this week.",
+    "doc_b": "It looks like the flu season is finally calming down around here. The local health officials put out a report saying the spread is slowing down a lot, with only 150 new flu cases being officially counted over the past week.",
+    "probe_query": "How many newly confirmed influenza cases were reported this week?"
+  },
+  {
+    "pair_id": "cons_07",
+    "label": 0,
+    "doc_a": "Following an exhaustive geological survey of the dormant Mount Vesuvius caldera, volcanologists have identified a measurable topographical anomaly. The highly sensitive GPS equipment deployed along the southern ridge recorded a surface elevation increase of exactly 12 millimeters over the preceding year.",
+    "doc_b": "Scientists keeping a close eye on Mount Vesuvius noticed a tiny but real change in the shape of the volcano. Using super accurate GPS trackers on the south side, they figured out the ground actually bulged upwards by 12 millimeters during the last twelve months.",
+    "probe_query": "By how many millimeters did the surface elevation increase on the southern ridge of Mount Vesuvius over the last year?"
+  },
+  {
+    "pair_id": "cons_08",
+    "label": 0,
+    "doc_a": "The dietary guidelines promulgated by the national nutritional board have been substantively revised for the upcoming decade. The definitive clinical consensus advises that the average sedentary adult female should restrict her daily caloric intake to a maximum of 1,800 kilocalories to maintain metabolic homeostasis.",
+    "doc_b": "If you are a woman who doesn't exercise much, the government just updated their diet advice for the next ten years. To keep a healthy weight and a balanced metabolism, they say you shouldn't eat more than 1,800 calories in a single day.",
+    "probe_query": "What is the maximum daily caloric intake recommended for a sedentary adult female?"
+  },
+  {
+    "pair_id": "cons_09",
+    "label": 0,
+    "doc_a": "Subsequent to a comprehensive forensic analysis of the vehicular collision scene, traffic accident investigators isolated the primary causative factor. The official police report documents that the commercial freight truck was traveling at a velocity of 85 miles per hour prior to the catastrophic brake failure.",
+    "doc_b": "The cops finished checking out that awful crash involving the big rig, and they know exactly what caused it. Before the brakes gave out completely, the truck driver was speeding way too fast, hitting 85 miles per hour on the road.",
+    "probe_query": "At what velocity was the commercial freight truck traveling before the brake failure?"
+  },
+  {
+    "pair_id": "cons_10",
+    "label": 0,
+    "doc_a": "The academic consortium dedicated to marine biology successfully charted the migratory patterns of the North Atlantic right whale. By utilizing advanced satellite telemetry tagging, researchers definitively tracked the pod's journey, which spanned an impressive total distance of 4,200 kilometers.",
+    "doc_b": "Scientists studying ocean life managed to follow a group of North Atlantic right whales using high-tech satellite trackers. They found out that these massive creatures swam an incredibly long way during their migration, traveling a total of 4,200 kilometers across the ocean.",
+    "probe_query": "What was the total migratory distance spanned by the North Atlantic right whale pod in kilometers?"
+  },
+  {
+    "pair_id": "cons_11",
+    "label": 0,
+    "doc_a": "The botanical expedition cataloging the flora of the Amazon basin documented a previously unknown species of carnivorous pitcher plant. The meticulous field notes indicate that this specific botanical specimen thrives exclusively in soil environments maintaining an acidic pH level of 4.5.",
+    "doc_b": "While exploring the Amazon rainforest, some plant experts stumbled upon a brand new type of bug-eating pitcher plant. According to their research notes, you can only find this cool plant growing in very acidic dirt that has a pH of exactly 4.5.",
+    "probe_query": "At what specific pH level does the newly discovered carnivorous pitcher plant thrive?"
+  },
+  {
+    "pair_id": "cons_12",
+    "label": 0,
+    "doc_a": "A comprehensive internal audit of the municipal public library system's digital database revealed a staggering volume of electronic circulation. The chief librarian's annual review confirmed that patrons successfully downloaded precisely 1.5 million e-books during the most recent fiscal year.",
+    "doc_b": "People are really using the city's digital library services a lot more these days. The head librarian checked the numbers for the last year, and it turns out residents borrowed a massive 1.5 million electronic books directly to their devices.",
+    "probe_query": "How many e-books did patrons download from the municipal library system during the last fiscal year?"
+  },
+  {
+    "pair_id": "cons_13",
+    "label": 0,
+    "doc_a": "The geopolitical summit held in Geneva concluded with the ratification of a landmark environmental preservation treaty. Representatives from the participating nations formally agreed to collaboratively reduce global industrial carbon emissions by a targeted baseline of 35 percent by the year 2040.",
+    "doc_b": "World leaders finally wrapped up their big environmental meeting in Geneva, and they actually signed a major deal. Every country there promised to work together and cut down on factory pollution, aiming for a 35 percent drop in carbon emissions by 2040.",
+    "probe_query": "By what targeted baseline percentage did the nations agree to reduce industrial carbon emissions by 2040?"
+  },
+  {
+    "pair_id": "cons_14",
+    "label": 0,
+    "doc_a": "The rigorous endurance testing of the newly manufactured solid-state battery prototype has been finalized by the engineering department. The published operational parameters dictate that the power cell is capable of retaining a functional charge for a maximum duration of 72 hours under continuous nominal load.",
+    "doc_b": "Engineers just finished pushing that new solid-state battery prototype to its absolute limits. If you keep it running constantly under normal conditions, the testing proves that it will stay powered up and working for up to 72 hours straight before dying.",
+    "probe_query": "For what maximum duration can the solid-state battery prototype retain a functional charge under continuous nominal load?"
+  },
+  {
+    "pair_id": "cons_15",
+    "label": 0,
+    "doc_a": "The meteorological observatory stationed at the summit of Mount Washington documented an unprecedented atmospheric anomaly during the severe winter squall. The calibrated anemometers recorded a transient, peak wind gust velocity reaching an astonishing 231 miles per hour.",
+    "doc_b": "The weather station sitting way up on Mount Washington saw some insane conditions during that massive winter storm. Their super accurate wind gauges clocked a sudden, massive burst of wind that hit a mind-blowing speed of 231 miles per hour.",
+    "probe_query": "What peak wind gust velocity was recorded by the observatory on Mount Washington?"
+  },
+  {
+    "pair_id": "cons_16",
+    "label": 0,
+    "doc_a": "The independent appraisal of the late monarch's extensive jewelry collection was completed by a consortium of master gemologists. Their meticulous examination concluded that the centerpiece diamond, known as the Star of the East, possesses a certified weight of 85.5 carats.",
+    "doc_b": "A bunch of top-tier jewelry experts finally finished evaluating all the gems left behind by the deceased king. When they weighed the biggest, most famous diamond in the collection—the Star of the East—it came in at exactly 85.5 carats.",
+    "probe_query": "What is the certified weight in carats of the Star of the East diamond?"
+  },
+  {
+    "pair_id": "cons_17",
+    "label": 0,
+    "doc_a": "The municipal planning committee enacted a comprehensive zoning ordinance aimed at regulating high-density urban development. The revised building code explicitly restricts the maximum permissible height for any new commercial structure situated in the historic district to 120 feet.",
+    "doc_b": "The city planners just passed a new rule to control how big new buildings can get in the older parts of town. If a developer wants to build a commercial spot in the historic district, they absolutely cannot make it taller than 120 feet.",
+    "probe_query": "What is the maximum permissible height for new commercial structures in the historic district?"
+  },
+  {
+    "pair_id": "cons_18",
+    "label": 0,
+    "doc_a": "Paleontological excavations in the Badlands yielded a remarkably intact fossilized skeletal structure of a triceratops. Radiometric dating methodologies applied to the surrounding sedimentary rock layers pinpoint the exact epoch of the specimen's demise to approximately 66 million years ago.",
+    "doc_b": "Fossil hunters digging out in the Badlands found a nearly perfect triceratops skeleton buried in the dirt. By testing the age of the rocks packed around the dinosaur bones, they figured out that this specific animal died roughly 66 million years ago.",
+    "probe_query": "Approximately how many years ago did the excavated triceratops specimen die?"
+  },
+  {
+    "pair_id": "cons_19",
+    "label": 0,
+    "doc_a": "The quarterly earnings report distributed by the international streaming conglomerate exceeded optimistic Wall Street forecasts. The detailed subscriber metrics demonstrate that the platform successfully acquired 8.5 million net new paid memberships globally during the third fiscal quarter.",
+    "doc_b": "That massive streaming company totally crushed Wall Street's expectations when they dropped their latest financial report. Between July and September, they managed to convince 8.5 million brand new people around the world to sign up and pay for a subscription.",
+    "probe_query": "How many net new paid memberships did the streaming platform acquire during the third fiscal quarter?"
+  },
+  {
+    "pair_id": "cons_20",
+    "label": 0,
+    "doc_a": "The zoological society's captive breeding program for the critically endangered Amur leopard has reported a significant milestone. The senior veterinarian confirmed that the gestation period for the newly pregnant female in their care is anticipated to last exactly 95 days.",
+    "doc_b": "The zoo is having amazing luck trying to save the super rare Amur leopards from extinction. The head animal doctor announced that one of their females is pregnant, and they expect her to carry the cubs for precisely 95 days before giving birth.",
+    "probe_query": "How many days is the anticipated gestation period for the pregnant Amur leopard?"
+  },
+  {
+    "pair_id": "cons_21",
+    "label": 0,
+    "doc_a": "The federal highway administration published a comprehensive statistical analysis regarding vehicular infrastructure utilization. The empirical data strongly indicates that the newly implemented carpool lane effectively reduced average morning commute times by exactly 22 minutes for participating drivers.",
+    "doc_b": "The government just put out a big study on how people are using the roads. It turns out that building that new HOV lane was a great idea, because folks who carpool are shaving 22 minutes off their drive to work every morning.",
+    "probe_query": "By how many minutes did the carpool lane reduce the average morning commute time for participating drivers?"
+  },
+  {
+    "pair_id": "cons_22",
+    "label": 0,
+    "doc_a": "The astrophysics symposium concluded with a groundbreaking presentation regarding the mass of the supermassive black hole situated at the galactic core. Utilizing the latest radio telescope array, the research team definitively calculated its mass to be 4.3 million times that of our sun.",
+    "doc_b": "At the big space conference, astronomers shared some mind-blowing news about the giant black hole sitting right in the middle of our galaxy. Thanks to some new telescope tech, they figured out it weighs as much as 4.3 million of our suns combined.",
+    "probe_query": "What is the calculated mass of the supermassive black hole at the galactic core in solar masses?"
+  },
+  {
+    "pair_id": "cons_23",
+    "label": 0,
+    "doc_a": "The agricultural oversight committee evaluated the efficacy of the newly introduced organic pesticide on commercial crop yields. The resultant agronomic report unequivocally demonstrates that the botanical compound eradicates 98 percent of the targeted aphid population within 48 hours of application.",
+    "doc_b": "Farmers testing out that new natural bug spray on their fields are seeing some incredible results. The official farming report proves that if you spray it on your plants, it wipes out 98 percent of those annoying aphids in just two days.",
+    "probe_query": "What percentage of the targeted aphid population does the organic pesticide eradicate within 48 hours?"
+  },
+  {
+    "pair_id": "cons_24",
+    "label": 0,
+    "doc_a": "The philanthropic foundation announced its annual grant allocations aimed at bolstering global public health infrastructure. The board of directors unanimously authorized a sweeping financial initiative, pledging a total of $500 million toward the eradication of malaria in Sub-Saharan Africa.",
+    "doc_b": "A massive charity group just revealed how they plan to spend their money to help people's health around the world. Everyone on the board agreed to give away a whopping $500 million specifically to fight and wipe out malaria in Sub-Saharan Africa.",
+    "probe_query": "What is the total amount pledged by the philanthropic foundation toward the eradication of malaria?"
+  },
+  {
+    "pair_id": "cons_25",
+    "label": 0,
+    "doc_a": "The forensic accounting team meticulously reconstructed the digital transaction ledger of the defunct cryptocurrency exchange. Their exhaustive audit revealed that the rogue proprietary trading algorithm systematically executed micro-transactions at a staggering rate of 15,000 trades per second.",
+    "doc_b": "When investigators dug into the computer files of that bankrupt crypto company, they found something crazy. The software they used for secret trading was incredibly fast, buying and selling crypto assets 15,000 times every single second without anyone noticing.",
+    "probe_query": "At what rate did the rogue proprietary trading algorithm execute micro-transactions per second?"
+  },
+  {
+    "pair_id": "cons_26",
+    "label": 0,
+    "doc_a": "The historical preservation society undertook the meticulous restoration of the 19th-century steam locomotive, ensuring absolute mechanical authenticity. The engineering blueprints dictate that the primary boiler must maintain an operational pressure of exactly 250 pounds per square inch to function safely.",
+    "doc_b": "While fixing up that old antique train from the 1800s, the restoration team made sure everything worked just like it used to. According to the original plans, the big boiler has to stay pressurized at 250 pounds per square inch to run without exploding.",
+    "probe_query": "What operational pressure in pounds per square inch must the steam locomotive's primary boiler maintain?"
+  },
+  {
+    "pair_id": "cons_27",
+    "label": 0,
+    "doc_a": "The sports science institute published a biomechanical analysis of the world champion sprinter's running mechanics. The high-speed motion capture data indicates that during maximum velocity, the athlete's foot remains in contact with the track surface for a mere 0.08 seconds.",
+    "doc_b": "Scientists hooked up a top sprinter to a bunch of cameras to see exactly how he runs so fast. The slow-motion video proved that when he is sprinting at top speed, his shoe touches the ground for only 0.08 seconds per stride.",
+    "probe_query": "For how many seconds does the sprinter's foot remain in contact with the track surface during maximum velocity?"
+  },
+  {
+    "pair_id": "cons_28",
+    "label": 0,
+    "doc_a": "The national forestry commission released its annual assessment concerning the devastating impact of the summer wildfire season. The comprehensive geospatial mapping report concludes that the intense inferno consumed a contiguous swath of ancient woodland totaling 1.2 million acres.",
+    "doc_b": "The forest service finally figured out just how much damage those awful summer fires caused. Looking at all the satellite maps, they confirmed that the huge blaze burned down a massive chunk of old forest, destroying 1.2 million acres of land in total.",
+    "probe_query": "What was the total area of woodland consumed by the summer wildfire in acres?"
+  },
+  {
+    "pair_id": "cons_29",
+    "label": 0,
+    "doc_a": "The telecommunications conglomerate successfully deployed its next-generation fiber optic network across the metropolitan area. The technical specifications provided to internet service providers guarantee that the newly laid infrastructure supports a maximum bidirectional data transfer rate of 10 gigabits per second.",
+    "doc_b": "That big telecom company finally finished putting down their new internet cables all over the city. They promised the local internet providers that this fresh fiber optic setup is super fast, allowing data to move both ways at 10 gigabits per second max.",
+    "probe_query": "What is the maximum bidirectional data transfer rate supported by the newly laid fiber optic infrastructure?"
+  },
+  {
+    "pair_id": "cons_30",
+    "label": 0,
+    "doc_a": "The architectural historian's exhaustive treatise on medieval cathedral construction highlights a remarkable structural characteristic. The precise geometric measurements of the central nave confirm that the vaulted stone ceiling reaches an awe-inspiring apex of 144 feet above the cathedral floor.",
+    "doc_b": "A historian who studies how old churches were built pointed out an amazing detail about a famous medieval cathedral. When they measured the inside of the main hall, they found the highest point of the stone ceiling sits exactly 144 feet off the ground.",
+    "probe_query": "What is the apex height of the central nave's vaulted stone ceiling above the cathedral floor?"
+  },
+  {
+    "pair_id": "cons_31",
+    "label": "0",
+    "doc_a": "The multinational pharmaceutical corporation has initiated a voluntary recall of a specific over-the-counter analgesic medication. The internal quality assurance board identified a critical formulation error, noting that the affected batch contains 600mg of the active ingredient rather than the approved 400mg.",
+    "doc_b": "A huge drug company is asking people to return a certain painkiller they bought from the store. Their safety team caught a big mistake in the factory, figuring out that some pills have 600mg of the medicine inside them instead of the normal 400mg.",
+    "probe_query": "How many milligrams of the active ingredient are contained in the affected batch of the analgesic medication?"
+  },
+  {
+    "pair_id": "cons_32",
+    "label": "0",
+    "doc_a": "The comprehensive marine biological survey of the Mariana Trench utilized an autonomous deep-sea submersible to catalog extremophile organisms. The telemetry logs from the remote vehicle verify that it descended to an unprecedented, crushing depth of 10,984 meters below sea level.",
+    "doc_b": "Scientists wanting to learn about the weird creatures living at the bottom of the ocean sent a robot sub down into the Mariana Trench. The data from the robot proves it went deeper than ever before, hitting 10,984 meters straight down into the dark water.",
+    "probe_query": "To what depth below sea level did the autonomous deep-sea submersible descend?"
+  },
+  {
+    "pair_id": "cons_33",
+    "label": "0",
+    "doc_a": "The automotive industry regulator published its safety rating for the newly released electric sport utility vehicle. The rigorous crash test simulation data confirms that the reinforced chassis and crumple zones effectively absorb impact forces at collision speeds up to 55 miles per hour.",
+    "doc_b": "The government group that checks how safe cars are just released the scores for that new electric SUV. According to all the crash tests they ran, the car's frame is built so well it protects people in crashes at speeds up to 55 miles per hour.",
+    "probe_query": "Up to what collision speed do the vehicle's crumple zones effectively absorb impact forces?"
+  },
+  {
+    "pair_id": "cons_34",
+    "label": "0",
+    "doc_a": "The renowned museum of antiquities authenticated a newly discovered manuscript attributed to a prominent renaissance philosopher. Radiocarbon analysis of the parchment, coupled with calligraphic evaluation, definitively establishes the document's origin year as 1492.",
+    "doc_b": "That famous history museum checked out an old written document someone found, which was supposedly penned by a big thinker from the Renaissance. By looking at the handwriting and testing the paper's age, they are 100 percent sure it was written back in 1492.",
+    "probe_query": "What is the definitively established origin year of the authenticated manuscript?"
+  },
+  {
+    "pair_id": "cons_35",
+    "label": "0",
+    "doc_a": "The national department of agriculture released a grim forecast regarding the ongoing drought's impact on domestic citrus production. The comprehensive agronomic analysis projects that total orange crop yields will plummet by a devastating 40 percent this harvest season.",
+    "doc_b": "The farming department gave some really bad news about how the dry weather is hurting fruit trees. Their experts crunched all the numbers and they expect farmers will pick 40 percent fewer oranges this year because of the lack of rain.",
+    "probe_query": "By what percentage is the total orange crop yield projected to plummet this harvest season?"
+  },
+  {
+    "pair_id": "cons_36",
+    "label": "0",
+    "doc_a": "The independent cinematic board reviewed the highly anticipated science fiction epic prior to its theatrical release. Due to the inclusion of intense, sustained sequences of graphic violence, the regulatory committee unanimously decided to assign the film a strict NC-17 rating.",
+    "doc_b": "Before that massive sci-fi movie hits theaters, the official movie rating group watched it to decide who should be allowed to see it. Because it has so many super bloody and violent scenes, they all agreed it had to be rated NC-17, no exceptions.",
+    "probe_query": "What rating was assigned to the science fiction film by the regulatory committee?"
+  },
+  {
+    "pair_id": "cons_37",
+    "label": "0",
+    "doc_a": "The municipal utilities commission announced a mandatory upgrade to the city's aging subterranean water distribution infrastructure. The heavily subsidized public works project involves the systematic replacement of precisely 250 miles of corroded iron piping over the next five years.",
+    "doc_b": "The city water folks said they have to fix the really old pipes buried under the streets. The government is paying for a massive construction job to dig up and swap out exactly 250 miles of rusty iron pipes over a five-year stretch.",
+    "probe_query": "How many miles of corroded iron piping will be systematically replaced over the next five years?"
+  },
+  {
+    "pair_id": "cons_38",
+    "label": "0",
+    "doc_a": "The behavioral ecology study focusing on the social dynamics of the African elephant herd yielded fascinating insights. The prolonged observation period recorded by the zoologists indicates that the matriarch of the group reached the advanced age of 65 years.",
+    "doc_b": "Researchers who spent a ton of time watching how a herd of elephants interacts in Africa learned something really cool. They tracked the oldest female elephant leading the whole family, and they found out she was actually 65 years old.",
+    "probe_query": "What was the recorded age of the African elephant herd's matriarch?"
+  },
+  {
+    "pair_id": "cons_39",
+    "label": "0",
+    "doc_a": "The international committee on weights and measures convened to redefine several fundamental physical constants for heightened precision. The meticulously peer-reviewed physics paper establishes that the exact temperature of absolute zero is definitively −273.15 degrees Celsius.",
+    "doc_b": "A bunch of top scientists got together to make sure the world's most basic measurements are perfectly accurate. They put out a completely solid paper stating that the absolute coldest temperature possible, absolute zero, is exactly −273.15 degrees Celsius.",
+    "probe_query": "What is the exact temperature of absolute zero established by the committee in degrees Celsius?"
+  },
+  {
+    "pair_id": "cons_40",
+    "label": "0",
+    "doc_a": "The software security bulletin published by the operating system developer highlighted a critical vulnerability in the cryptographic module. To mitigate the severe risk of unauthorized decryption, the company advises all enterprise users to upgrade their encryption keys to a robust 4096-bit standard.",
+    "doc_b": "The people who make the computer software sent out an alert about a massive flaw in their security system. To stop hackers from easily breaking the codes, they are telling all business customers to switch their security keys over to the stronger 4096-bit format.",
+    "probe_query": "To what standard does the company advise enterprise users to upgrade their encryption keys?"
+  },
+  {
+    "pair_id": "cons_41",
+    "label": "0",
+    "doc_a": "The geological survey of the San Andreas fault line detected anomalous seismic tremors preceding a localized rupture. The sophisticated seismographic network measured the primary shockwave of the subsequent earthquake, confirming an intensity of 6.2 on the moment magnitude scale.",
+    "doc_b": "Scientists watching the San Andreas fault noticed some weird shaking right before the ground cracked. Their high-tech equipment caught the main shock of the earthquake that happened right after, scoring it at a 6.2 on the magnitude scale.",
+    "probe_query": "What was the measured intensity of the earthquake on the moment magnitude scale?"
+  },
+  {
+    "pair_id": "cons_42",
+    "label": "0",
+    "doc_a": "The consumer electronics manufacturer published the hardware specifications for their upcoming augmented reality headset. The engineering documentation guarantees that the dual micro-OLED displays will feature a remarkably fluid refresh rate of 120 hertz to prevent user motion sickness.",
+    "doc_b": "The tech company finally released the stats for their new AR goggles. According to the engineers who built it, the two tiny screens inside the headset will refresh super fast at 120 hertz, which should stop people from feeling dizzy or nauseous while playing.",
+    "probe_query": "What is the refresh rate of the dual micro-OLED displays in the augmented reality headset?"
+  },
+  {
+    "pair_id": "cons_43",
+    "label": "0",
+    "doc_a": "The international labor organization synthesized empirical data regarding the evolving paradigm of remote employment across developed nations. Their comprehensive demographic analysis reveals that exactly 35 percent of the contemporary corporate workforce now operates entirely from a home office environment.",
+    "doc_b": "A huge global labor group gathered a bunch of information about how working from home is changing things in richer countries. They ran the numbers and found out that right now, 35 percent of corporate employees never go into an office and work entirely from home.",
+    "probe_query": "What percentage of the contemporary corporate workforce operates entirely from a home office environment?"
+  },
+  {
+    "pair_id": "cons_44",
+    "label": "0",
+    "doc_a": "The civil aviation authority conducted an exhaustive review of the commercial airline's operational safety protocols following a minor runway incident. The regulatory body mandated a significant fine, penalizing the corporation a sum of $2.5 million for documented procedural negligence.",
+    "doc_b": "After a plane had a small issue on the runway, the aviation regulators dug deep into how the airline runs its safety checks. Because the airline messed up their safety rules, the government hit them with a massive fine, making them pay $2.5 million.",
+    "probe_query": "What was the sum of the significant fine mandated by the civil aviation authority?"
+  },
+  {
+    "pair_id": "cons_45",
+    "label": "0",
+    "doc_a": "The specialized agronomist team developed a novel hydroponic cultivation technique tailored for urban vertical farming facilities. Their published yield metrics indicate that the optimized nutrient solution accelerates the growth cycle of butterhead lettuce, allowing for a full harvest in a mere 21 days.",
+    "doc_b": "Some clever plant experts figured out a new way to grow food indoors without dirt for those tall city farms. Their results show that if you use their special plant food mix, you can grow a full head of butterhead lettuce in just 21 days.",
+    "probe_query": "In how many days does the optimized hydroponic nutrient solution allow for a full harvest of butterhead lettuce?"
+  },
+  {
+    "pair_id": "cons_46",
+    "label": "0",
+    "doc_a": "The historical maritime society recovered an incredibly preserved bronze cannon from the wreckage of the 16th-century Spanish armada. Metallurgical analysis of the artifact, conducted at the university laboratory, determined the weapon's total structural weight to be 3,500 pounds.",
+    "doc_b": "A group that studies old shipwrecks pulled up an amazing bronze cannon from a sunken Spanish ship from the 1500s. When scientists at the college lab put it on the scale and checked the metal, they saw the whole thing weighed exactly 3,500 pounds.",
+    "probe_query": "What is the determined total structural weight of the recovered bronze cannon in pounds?"
+  },
+  {
+    "pair_id": "cons_47",
+    "label": "0",
+    "doc_a": "The prestigious culinary academy revised its exacting standards for authentic Neapolitan pizza preparation, adhering to traditional methodologies. The updated syllabus explicitly requires student chefs to ferment the specialized high-protein dough for a minimum duration of 72 hours before baking.",
+    "doc_b": "That fancy cooking school changed its rules on how to make real-deal Neapolitan pizza to keep it traditional. Now, they are forcing all the chefs in training to let their special pizza dough sit and rise for at least 72 hours before they can put it in the oven.",
+    "probe_query": "What is the minimum duration required for fermenting the specialized high-protein dough?"
+  },
+  {
+    "pair_id": "cons_48",
+    "label": "0",
+    "doc_a": "The municipal waste management department implemented a multifaceted recycling initiative designed to significantly reduce landfill accumulation. After one year of program execution, the statistical analysis confirms that the city successfully diverted 45,000 tons of recyclable material from local dumps.",
+    "doc_b": "The city trash department started a big recycling push to try and keep garbage out of the local dumps. It has been running for a year now, and the numbers show the city actually managed to save 45,000 tons of recyclables from being thrown away.",
+    "probe_query": "How many tons of recyclable material did the city successfully divert from local dumps?"
+  },
+  {
+    "pair_id": "cons_49",
+    "label": "0",
+    "doc_a": "The evolutionary geneticist published a seminal paper detailing the divergence of the hominid lineage utilizing advanced molecular clock techniques. The sophisticated computational model definitively calculates that the last common ancestor between humans and chimpanzees existed approximately 6.5 million years ago.",
+    "doc_b": "A top genetics expert released a huge study about when humans and apes split apart, using math based on DNA mutations. The computer program they used figured out that humans and chimps shared their very last common relative around 6.5 million years ago.",
+    "probe_query": "According to the molecular clock techniques, approximately how many years ago did the last common ancestor between humans and chimpanzees exist?"
+  },
+  {
+    "pair_id": "cons_50",
+    "label": "0",
+    "doc_a": "The state department of energy subsidized the installation of high-efficiency solar panels across a vast array of public educational institutions. The finalized engineering report guarantees that the newly retrofitted high school roof array will generate a consistent 500 kilowatts of peak power.",
+    "doc_b": "The state energy folks paid to put super efficient solar panels on the roofs of a bunch of public schools. According to the final paperwork from the builders, the new setup on the high school roof will definitely pump out 500 kilowatts of power on sunny days.",
+    "probe_query": "How many kilowatts of peak power will the newly retrofitted high school solar roof array generate?"
+  }
+]
